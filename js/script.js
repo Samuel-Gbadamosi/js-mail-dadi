@@ -1,5 +1,7 @@
 
 // first ID player & computer random number by applying this belwo
+document.getElementById("genera").addEventListener('click',
+function() {
 
 
 var player = Math.floor(Math.random()* 6) + 1;
@@ -30,6 +32,9 @@ console.log(message + " and your score is " + player );
   message = "draw try again";
   document.getElementById("draw").innerHTML = message;
   console.log(message);
+}
+
+// document.getElementById("genera").innerHTML = player + computer;
 
 }
-// we apply the the if condition to decide when its equal to or greater than or else by telling it what to do from the applied version done previously above
+);

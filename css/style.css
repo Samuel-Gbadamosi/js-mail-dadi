@@ -22,6 +22,14 @@ header{
   color: red;
 }
 
+.hidden{
+  opacity: 0;
+}
+
+.show{
+  background-color: blue;}
+
+
 main{
   background-image: url("https://media.istockphoto.com/photos/3d-rendering-of-cardboard-box-in-air-full-of-white-dice-with-black-picture-id1179116504?b=1&k=6&m=1179116504&s=170667a&w=0&h=6mmObOn7vxgMeQ0pGWnGwsnCJLzRM8_tX-f86qLNVS8=");
   width: 100%;
@@ -29,6 +37,16 @@ main{
   background-repeat: no-repeat;
   background-size: contain;
 
+}
+
+#genera{
+  text-align: center;
+  height: 30px;
+  width:100px;
+  background-color: red;
+  color:white;
+  border: 1px solid black;
+  border-radius: 5px;
 }
 
 .pic{
@@ -40,6 +58,12 @@ main{
 #player{
   color: black;
   background-color: white;
+}
+
+#click{
+  height: 50px;
+  width:50px;
+  border: 1px solid red;
 }
 
 
